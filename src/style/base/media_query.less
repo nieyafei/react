@@ -1,0 +1,68 @@
+@import "./_size";
+//iphone 4width
+
+@media only screen and (min-device-width : 300px) and (max-device-height : 490px){
+
+
+    #app {
+        .start_cons .start_h {
+            margin-top: 30px;
+        }
+        .corporation_tips, .corporation_tips_name  {
+            margin-top:30px;
+            margin-bottom:10px;
+        }
+    }
+
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 374px) {
+
+    .register-form.login_form .field-alert{
+        span {
+            width:480px;
+        }
+    }
+
+    .item_info .item_personal .co_name {
+        width: 120px;
+        display: inline-block;
+    }
+
+    #app {
+        .start_cons .static-info span {
+            font-size:32px;
+        }
+
+        .corporation_static span {
+            font-size:32px;
+        }
+        .item_info {
+            .item_title {
+                a{
+                    .px2px(width, 500);
+                }
+            }
+        }
+    }
+
+}
+
+//iphone 6 width
+@media only screen and (min-device-width : 375px) and (max-device-width : 413px) {
+
+    .item_info .item_personal .co_name {
+        width: 210px;
+        display: inline-block;
+    }
+}
+
+
+//iphone 6p+ width
+@media only screen and (min-device-width : 414px)  {
+
+    .item_info .item_personal .co_name {
+        width: 420px;
+        display: inline-block;
+    }
+}
